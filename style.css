@@ -1,0 +1,1126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 30px;
+}
+.logo1{
+    width: 84.235px;
+    height: 84.681px;
+    flex-shrink: 0;
+}
+.logo2{
+    width: 145.051px;
+    height: 23.632px;
+    flex-shrink: 0;
+}
+.content h3{
+    background: #012A4A;
+    width: 387px;
+    height: 65px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Li Ador Noirrit;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 18px;
+    margin: 50px 0;
+    border-radius: 40px 0;
+    display: flex;
+    align-items: center;
+}
+.content h2{
+    font-family: Li Niladri Rongtuli Unicode;
+    color: #003B60;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-top: -25px;
+}
+.content2 h5{
+    font-family: Li Ador Noirrit;
+    color: #012A4A;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+.para .p1{
+    font-family: Li Ador Noirrit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #608AAB;
+}
+.para .p2{
+    font-family: Li Ador Noirrit;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #012A4A;
+}
+.content2 .para hr{
+    width: 72px;
+    color: #608AAB;
+    margin-right: 6px;
+    margin-top: -16px;
+}
+.pic img{
+    position: relative;
+    width: 663px;
+    height: 652px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic .group1{
+    position: absolute;
+    width: 730px;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding-right: 100px;
+    transform: translate(-9%, 20%);
+}
+.content2 button{
+    width: 170px;
+    height: 50px;
+    top: 644px;
+    left: 314px;
+    background: #F0E615;
+    color: #092E67;
+    font-weight: 600;
+    margin: 30px 20px 20px 0;
+    border: none;
+    border-radius: 40px 0;
+}
+.content2 .p3{
+    font-family: Li Ador Noirrit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #012A4A;
+    margin-top: 10px;
+}
+.content1 .btn1 button{
+    font-size: 25px;
+    font-weight: 600;
+    color: #012A4A;
+    background: #F0E615;
+    padding: 9px 28px 9px 70px;
+    border-radius: 40px 0;
+    border: none;
+    position: relative;
+    margin: 30px 0 0 70px;
+}
+.content1 .btn1 a{
+    font-size: 17px;
+    background: #012A4A;
+    color: #F0E615;
+    border-radius: 50%;
+    padding: 7px 10px;
+    position: absolute;
+    z-index: 1;
+    margin: 40px 0 0 90px;
+}
+.content1 .btn2{
+    font-size: 17px;
+    color: #fff;
+    background: #012A4A;
+    padding: 10px 24px;
+    border-radius: 40px 0;
+    border: none;
+    margin-left: 20px;
+}
+/***about part css start***/
+.section p{
+    font-family: Li Ador Noirrit;
+    font-size: 16px;
+    font-weight: 500;
+    color: #003B60;
+    align-items: center;
+    margin: 50px 35px;
+}
+.pic2 img{
+    width: 400px;
+    height: 550px;
+    border-radius: 200px;
+    position: relative;
+    z-index: 999999;
+}
+.about h3{
+    width: 450px;
+    font-family: Li Ador Noirrit;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #003B60;
+    margin-left: 150px;
+}
+.about-us{
+    color: #092E67;
+    margin: 15px;
+}
+.about-us .part p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.about-us .part a{
+    font-size: 11px;
+    color: #092E67;
+    width: 16px;
+    height: 17px;
+    margin: 12px;
+    border: 1px solid #092E67;
+    border-radius: 2px;
+    padding-left: 2px;
+}
+/***about part css end***/
+
+/***order part css start***/
+.order-bg{
+    background: url(images/denim_text_effect\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-top: -240px;
+    overflow: hidden;
+}
+.order-bg::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(14, 22, 31, 0.2);
+}
+.order{
+    position: relative;
+    z-index: 99999;
+    text-align: center;
+    margin-left: 60px;
+}
+.head h4{
+    font-family: Li Ador Noirrit;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60.02px;
+    color: #F0E615;
+    margin-top: 30px;
+}
+.order .picture img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+.down{
+    text-align: center;
+}
+.down p{
+    font-family: Li Ador Noirrit;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    width: 500px;
+    transform: translate(330px,350px);
+}
+.down button{
+    font-size: 15px;
+    font-weight: 800;
+    color: #012A4A;
+    background: #F0E615;
+    padding: 20px 48px;
+    border-radius: 40px 0;
+    border: none;
+    text-align: center;
+    transform: translate(20px,350px);
+}
+.down .icon{
+    font-size: 22px;
+    margin-left: 14px;
+
+}
+
+/***order part css end***/
+
+ /***team part css start***/
+ .team-bg{
+    background: #e7f1f8;
+    position: relative;
+}
+.team{
+    border-bottom: 2px dashed #003B60;
+}
+.jeans{
+    background: #FFFFFF;
+    margin: 50px 0;
+    border: none;
+    border-radius: 60px 0;
+    width: 250px;
+    height: 355px;
+}
+.jeans img{
+    width: 220px;
+    height: 200px;
+    margin: 30px 0 0 20px;
+    align-items: center;
+    transition: all linear .3s;
+}
+.jeans:hover img{
+    background-color: rgba(82, 82, 82, 0.2);
+}
+.jeans .desc {
+    color: #FFF;
+    position: absolute;
+    background: #003B60;
+    font-size: 12px;
+    padding: 15px 20px;
+    margin: 18px 0 0 9px;
+    border: none;
+    border-radius: 40px 0;
+}
+.jeans .desc p{
+    font-size: 14px;
+    margin: 5px 15px;
+    text-align: center;
+}
+.jeans .desc .desc2, .desc3, .desc4{
+    width: 160px;
+
+}
+.jeans .desc .desc1{
+    width: 163px;
+    padding: 10px 0;
+}
+ /***team part css end***/
+
+ /***description part css star***/
+ .heading{
+    text-align: center;
+    margin-left: 90px;
+ }
+ .heading h3{
+    font-size: 22px;
+    font-family: Li Ador Noirrit;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #092E67;
+ }
+ .use{
+    margin: 40px 80px;
+ }
+ .design p{
+    font-family: Li Ador Noirrit;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #092E67;
+ }
+ .design a{
+    font-size: 11px;
+    color: #092E67;
+    width: 16px;
+    height: 17px;
+    margin: 12px;
+    border: 1px solid #092E67;
+    border-radius: 2px;
+    padding-left: 2px;
+}
+.play-bg{
+    background: url(images/bunch-twisted-jeans-close-up-fashionable-clothes\ \(1\)\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.play-bg::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0);
+}
+.play{
+    text-align: center;
+    margin-top: 250px;
+    position: relative;
+}
+.play a{
+    font-size: 25px;
+    background-color: #F0E615;
+    border-radius: 50%;
+    padding: 12px 20px;
+}
+.play::after{
+    position: absolute;
+    content: '';
+    width: 82px;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    margin: 18px 0 0 -30px;
+    background-color: rgba(253, 252, 233, 0.349);
+    border-radius: 50%;
+}
+
+ /***description part css end***/
+
+ /***safe part css end***/
+.safe-bg{
+    position: relative;
+    margin: 60px 0 60px 80px;
+    text-align: center;
+}
+.product h4{
+    font-family: Li Niladri Rongtuli Unicode;
+    color: #003B60;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.para p{
+    margin: 10px 0 0 0;
+}
+.para .para1{
+    width: 600px;
+    height: 40px;
+    font-size: 14px;
+    font-family: Li Ador Noirrit;
+    font-weight: 500;
+    color: #003B60;
+    border: 1px solid #003B60;
+    margin: 30px 0 20px 260px;
+    padding-top: 10px;
+}
+.para .para2{
+    width: 370px;
+    height: 40px;
+    font-size: 14px;
+    font-family: Li Ador Noirrit;
+    font-weight: 500;
+    color: #003B60;
+    border: 1px solid #003B60;
+    margin: 30px 0 50px 360px;
+    padding-top: 10px;
+}
+.photo img{
+    width: 580px;
+    height: 420px;
+    margin-bottom: 60px;
+}
+.product-desc .para3{
+    font-size: 27px;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: -360px;
+}
+.product-desc .para4{
+    font-size: 15px;
+    font-family: Li Ador Noirrit;
+    color: #ffffff;
+}
+.product-desc button{
+    font-size: 15px;
+    font-weight: 800;
+    color: #012A4A;
+    background: #F0E615;
+    padding: 20px 48px;
+    border-radius: 40px 0;
+    border: none;
+    margin-top: 10px;
+}
+.product-desc .icon{
+    font-size: 22px;
+    margin-left: 14px;
+}
+ /***safe part css end***/
+
+ /***portfolio part css start***/
+.portfolio-bg{
+    text-align: center;
+    padding: 90px 0 50px 0;
+    background: #e7f1f8;
+}
+.portfolio{
+    width: 320px;
+    height: 220px;
+    background-color: #FFF;
+    color: #003B60;
+    margin: 80px 0;
+    border-radius: 50px 0;
+    transition: all linear 0.3s;
+}
+.portfolio:hover{
+    background-color: #003B60;
+    color: #FFF;
+}
+.portfolio .photos img{
+    width: 90px;
+    height: 90px;
+    margin-top: -50px;
+}
+.portfolio .heads h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 8px 0;
+}
+.portfolio .heads h6{
+    font-size: 12px;
+    font-weight: 300;
+    margin: 5px 0 10px 0;
+}
+.portfolio .paragraph p{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 50px;
+    padding-top: 10px;
+    border-top: 1px dashed #003B60;
+}
+.icon-left{
+    margin-top: -30px;
+}
+.icon-left a{
+    font-size: 18px;
+    color: #003B60;
+    border: 1px solid #003B60;
+    border-radius: 50%;
+    padding: 5px 9px;
+    margin-left: 6px;
+}
+ /***portfolio part css end***/
+
+ /***contact part css start***/
+.contact-bg{
+    background: url(images/918\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.contact-bg::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(34, 192, 195, 0.418) 0%, rgba(0, 59, 96, 0.938) 48%);
+}
+.contact{
+    position: absolute;
+    z-index: 999999;
+    color: #fff;
+}
+.contact-head h2{
+    font-size: 24px;
+    font-family: Li Niladri Rongtuli Unicode;
+    font-weight: 900;
+    text-align: center;
+    padding: 60px 0 40px 100px;
+}
+.cont form{
+    width: 360px;
+    margin-left: 200px;
+}
+.cont label{
+   font-size: 15px;
+}
+.cont input{
+    background: none;
+    margin: 20px 0;
+}
+.cont ::placeholder{
+    font-size: 11px;
+    color: #fff;
+}
+.payment{
+    width: 360px;
+    height: 100px;
+    background-color: #fff;
+    color: #003B60;
+    margin-left: 200px;
+    padding: 10px 20px;
+    border-radius: 20px 0;
+}
+.payment h5{
+    font-size: 14px;
+    font-weight: bold;
+}
+.pay a{
+    color: #F0E615;
+    margin-right: 10px;
+}
+.pay p{
+    font-size: 11px;
+    margin-top: 5px;
+}
+.pay2 p{
+    font-size: 11px;
+    background-color: #003B60;
+    color: #fff;
+    width: 360px;
+    padding: 10px 20px;
+    margin-left: -20px;
+    border-radius: 0 0 20px 0;
+}
+.cont2 h5{
+    font-size: 15px;
+    margin-left: 80px;
+}
+.cont2 table{
+    color: #fff;
+    width: 360px;
+    margin: 30px 0 20px 80px;
+}
+.cont2 thead{
+    font-size: 15px;
+}
+.cont2 tbody{
+    font-size: 11px;
+}
+.cont2 tbody img{
+    width: 40px;
+    height: 50px;
+    padding-right: 5px;
+}
+.tab button{
+    font-size: 15px;
+    font-weight: 800;
+    color: #012A4A;
+    background: #F0E615;
+    padding: 15px 120px;
+    border-radius: 40px 0;
+    border: none;
+    margin: 10px 0 0 80px;
+}
+.tab .icon{
+    font-size: 22px;
+    margin-left: 14px;
+}
+ /***contact part css end***/
+
+ /***footer part css start***/
+ .footer-bg{
+    background: url(images/bunch-twisted-jeans-close-up-fashionable-clothes\ \(1\)\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    z-index: -1;
+}
+.footer-bg::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(0, 59, 96, 0.9) 30%, rgba(233, 245, 247, 0.01) 100%);
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    z-index: 999999;
+}
+.footer .foot{
+    width: 900px;
+    height: 160px;
+    position: relative;
+    background: #003b60;
+    margin-left: 100px;
+    border-radius: 40px 0;
+    z-index: 999999999;
+
+}
+.disc h5{
+    font-size: 15px;
+    font-family: Li Ador Noirrit;
+    font-weight: 600;
+    position: relative;
+    margin-top: 40px;
+}
+.disc h5::after{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 2px;
+    bottom: -5px;
+    right: 160px;
+    background-color: #F0E615;
+}
+.disc .par{
+    font-size: 12px;
+    font-family: Li Ador Noirrit;
+    font-weight: 400;
+    margin: 20px 0 10px -30px;
+}
+.disc .par2{
+    font-size: 12px;
+    font-family: Li Ador Noirrit;
+    font-weight: 400;
+    margin: 0 0 10px -70px;
+}
+.log img{
+    width: 84.235px;
+    height: 84.681px;
+    margin-top: 15px;
+}
+.disc2 p{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.disc2 span{
+    color: #F0E615;
+}
+.add{
+    padding-right: 60px;
+}
+.add h5{
+    font-size: 14px;
+    font-family: Li Ador Noirrit;
+    font-weight: bold;
+    color: #F0E615;
+    margin-top: 40px;
+}
+.add p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.social-icon{
+    font-size: 24px;
+    margin-top: 25px;
+    z-index: 9999999;
+    position: relative;
+}
+.social-icon a:nth-of-type(1){
+    background: #3764B9;
+    color: #ffffff;
+    padding: 4px 13px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.social-icon a:nth-of-type(2){
+    background: linear-gradient(45deg, #ffde85 0%, #f7792a 30%,#f7504f 40%, #d82b81 60%, 
+    #d82b81 85%, #953632 100%);
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.social-icon a:nth-of-type(3){
+    background: #FF0000;
+    color: #ffffff;
+    padding: 0 8px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.social-icon p{
+    font-size: 13px;
+    margin: 40px 0;
+
+}
+.social-icon span{
+    font-size: 15px;
+    color: #F0E615;
+    border-bottom: 1px solid #F0E615;
+}
+ /***footer part css end***/
+
+/****responsive part start****/
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    .content h3{
+        font-size: 15px;
+        width: 290px;
+        height: 55px;
+    }
+    .content h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .content2 h5{
+        font-size: 17px;
+    }
+    .pic img{
+        width: 380px;
+        height: 440px;
+        transform: translateY(15%);
+    }
+    .pic .group1{
+        width: 500px;
+        height: 340px;
+        transform: translate(-11%, 40%);
+    }
+    .content2 .p3{
+        font-size: 17px;
+    }
+    
+    .content1 .btn1 button{
+        font-size: 17px;
+    }
+    .content1 .btn1 a{
+        font-size: 12px;
+    }
+    .content1 .btn2{
+        font-size: 14px;
+    }
+    .section p{
+        font-size: 14px;
+    }
+    .pic2 img{
+        width: 280px;
+        height: 400px;
+    }
+    .about h3{
+        width: 340px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .about-us .part p{
+        font-size: 11px;
+        margin-top: 0;
+    }
+    .about-us .part a{
+        font-size: 9px;
+        width: 14px;
+        height: 15px;
+        margin: 0 4px;
+    }
+    .order-bg{
+        height: 550px;
+        margin-top: -170px;
+    }
+    .head h4{
+        font-size: 20px;
+        margin-left: 80px;
+    }
+    .order .picture{
+        margin-left: 50px;
+    }
+    .order .picture img{
+        width: 45px;
+        height: 45px;
+    }
+    .down p{
+        font-size: 24px;
+        transform: translate(100px,250px);
+    }
+    .down button{
+        font-size: 14px;
+        padding: 14px 30px;
+        transform: translate(20px,250px);
+    }
+    .down .icon{
+        font-size: 17px;
+    }
+    .jeans{
+        width: 160px;
+        height: 240px;
+    }
+    .jeans img{
+        width: 110px;
+        height: 120px;
+    }
+    .jeans .desc {
+        padding: 9px 15px;
+    }
+    .jeans .desc p{
+        font-size: 9px;
+        margin: 0 8px;
+    }
+    .jeans .desc .desc2, .desc3, .desc4{
+        width: 100px;
+    
+    }
+    .jeans .desc .desc1{
+        width: 90px;
+        padding: 2px 0;
+    }
+    .heading h3{
+        margin-right: 50px;
+    }
+    .product h4{
+        font-size: 18px;
+        transform: translateX(-8%);
+    }
+    .para .para1{
+        margin-left: 0;
+    }
+    .para .para2{
+        width: 320px;
+        transform: translateX(-70%);
+    }
+    .photo{
+        transform: translateX(-8%);
+    }   
+    .portfolio{
+        width: 220px;
+        height: 250px;
+    }
+    .sari{
+        transform: translateX(-13%);
+    }
+    .cont form{
+        width: 260px;
+        margin-left: 150px;
+    }
+    .payment{
+        width: 260px;
+        height: 100px;
+        margin-left: 150px;
+    }
+    .contact-head h2{
+        font-size: 22px;
+        margin-right: 50px;
+    }
+    .pay2 p{
+        width: 260px;
+    }
+    .tab button{
+        font-size: 14px;
+        padding: 10px 70px;
+    }
+    .tab .icon {
+        font-size: 17px;
+        margin: 10px 0 0 8px;
+    }
+    .footer .foot{
+        width: 700px;
+        height: 160px;
+        margin-left: -8px;
+    }
+    .disc h5::after{
+        right: 125px;
+    }
+    .add p{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .content h3{
+        font-size: 13px;
+        width: 260px;
+        height: 50px;
+    }
+    .content h2{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .content2 .p3{
+        font-size: 16px;
+    }
+    .pic img{
+        width: 350px;
+        height: 400px;
+        transform: translate(-12%, -22%);
+    }
+    .pic .group1{
+        width: 470px;
+        height: 320px;
+        transform: translate(-17%, -12%);
+    }
+    .content1 .btn1 button{
+        font-size: 13px;
+        transform: translateX(-6%);
+    }
+    .content1 .btn1 a{
+        font-size: 12px;
+        padding: 5px 7px;
+        transform: translate(6%, -5%);
+    }
+    .content1 .btn2{
+        font-size: 12px;
+        margin-left: 3px;
+    }
+    .sec{
+        margin-top: -80px;
+        transform: translateX(-25%);
+    }
+    .section p{
+        font-size: 14px;
+    }
+    .pic2 img{
+        width: 250px;
+        height: 340px;
+        margin: -20px 0 20px 20px;
+    }
+    .about h3{
+        width: 300px;
+        font-size: 17px;
+        margin-left: 40px;
+    }
+    .about-us .part p{
+        font-size: 11px;
+    }
+    .order-bg{
+        height: 450px;
+        margin-top: -15px;
+    }
+    .head h4{
+        font-size: 17px;
+        transform: translateX(-10%);
+    }
+    .order .picture img{
+        width: 35px;
+        height: 35px;
+        transform: translateX(-50%);
+    }
+    .down p{
+        font-size: 17px;
+        width: 300px;
+        transform: translate(-0%, 320%);
+    }
+    .down button{
+        font-size: 12px;
+        padding: 12px 25px;
+        transform: translateY(400%);
+    }
+    .down .icon{
+        font-size: 15px;
+    }
+    .heading h3{
+        font-size: 18px;
+        margin-left: -60px;
+    }
+    .use{
+        margin: 20px 15px;
+     }
+    .design p{
+        font-size: 12px;
+        margin: 10px 0;
+     }
+     .design a{
+        font-size: 10px;
+    }
+    .product h4{
+        font-size: 15px;
+        transform: translateX(-26%);
+    }
+    .para .para1{
+        width: 300px;
+        height: 50px;
+        font-size: 12px;
+        transform: translateX(-114%);
+    }
+    .para .para2{
+        width: 200px;
+        height: 50px;
+        font-size: 12px;
+        transform: translateX(-195%);
+    }
+    .photo img{
+        width: 300px;
+        height: 250px;
+        margin-left: -160px;
+    }
+    .product-desc .para4{
+        font-size: 12px;
+        transform: translate(-30%, 100%);
+    }
+    .product-desc button{
+        font-size: 12px;
+        padding: 12px 28px;
+        transform: translate(-50%, 120%);
+    }
+    .product-desc .icon{
+        font-size: 15px;
+        margin-left: 8px;
+    }
+    .portfolio{
+        width: 280px;
+        height: 220px;
+        margin-left: 5px;
+    }
+    .contact-bg{
+        height: 900px;
+    }
+    .contact-head h2{
+        font-size: 18px;
+        line-height: 25px;
+        transform: translate(-23%, -20%);
+    }
+    .cont form{
+        width: 260px;
+        margin: -50px 0 0 -10px;
+    }
+    .payment{
+        width: 260px;
+        height: 100px;
+        margin-left: -10px;
+    }
+    .pay2 p{
+        width: 260px;
+    }
+    .cont2 h5{
+        margin-top: 30px;
+    }
+    .cont2 table{
+        width: 260px;
+        margin-left: -10px;
+    }
+    .tab button{
+        font-size: 13px;
+        padding: 6px 40px 10px 40px;
+        margin-left: -10px;
+    }
+    .tab .icon {
+        font-size: 15px;
+        margin: 10px 0 0 8px;
+    }
+    .footer-bg{
+        height: 500px;
+    }
+    .footer .foot{
+        width: 270px;
+        height: 340px;
+        margin-left: -8px;
+    }
+    .disc h5::after{
+        right: 150px;
+    }
+    .add p{
+        font-size: 16px;
+    }
+    .log img{
+        width: 70px;
+        height: 70px;
+    }
+    .disc2 p{
+        font-size: 18px;
+    }
+    .add h5{
+        margin: 0 0 0 40px;
+    }
+    .add p{
+        margin-right: -30px;
+    }
+}
